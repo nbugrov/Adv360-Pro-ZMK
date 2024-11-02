@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -52,11 +53,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL         &kp N1     &kp N2      &kp N3    &kp N4     &kp N5  &tog 1                                                             &mo 3              &kp N6  &kp N7               &kp N8        &kp N9    &kp N0    &kp MINUS
-&kp TAB           &kp Q      &kp W       &kp E     &kp R      &kp T   &kp GRAVE                                                          &kp RIGHT_BRACKET  &kp Y   &kp U                &kp I         &kp O     &kp P     &kp LEFT_BRACKET
-&mt LCTRL ESCAPE  &kp A      &kp S       &kp D     &kp F      &kp G   &kp TAB    &kp LCMD       &kp LALT       &kp RIGHT_ALT  &kp RCMD   &kp C_MUTE         &kp H   &kp J                &kp K         &kp L     &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z      &kp X       &kp C     &kp V      &kp B                             &kp GLOBE      &kp DEL                                      &kp N   &mt RIGHT_BRACKET M  &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2             &kp GRAVE  &caps_word  &kp LEFT  &kp RIGHT          &kp SPACE  &kp BACKSPACE  &kp LCTRL      &kp RCTRL      &kp ENTER  &kp SPACE                  &kp DOWN             &kp UP_ARROW  &kp BSLH  &kp RBKT  &mo 2
+&kp EQUAL         &kp N1     &kp N2      &kp N3    &kp N4     &kp N5  &tog 1                                                             &mo 3              &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
+&kp TAB           &kp Q      &kp W       &kp E     &kp R      &kp T   &kp GRAVE                                                          &kp RIGHT_BRACKET  &kp Y   &kp U     &kp I         &kp O     &kp P     &kp LEFT_BRACKET
+&mt LCTRL ESCAPE  &kp A      &kp S       &kp D     &kp F      &kp G   &kp TAB    &kp LCMD       &kp LALT       &kp RIGHT_ALT  &kp RCMD   &kp C_MUTE         &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z      &kp X       &kp C     &kp V      &kp B                             &kp GLOBE      &kp DEL                                      &kp N   &kt M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2             &kp GRAVE  &caps_word  &kp LEFT  &kp RIGHT          &kp SPACE  &kp BACKSPACE  &kp LCTRL      &kp RCTRL      &kp ENTER  &kp SPACE                  &kp DOWN  &kp UP_ARROW  &kp BSLH  &kp RBKT  &mo 2
             >;
         };
 
