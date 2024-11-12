@@ -45,6 +45,11 @@
             bindings = <&sk LCMD>;
             key-positions = <31 42>;
         };
+
+        thumb-input-src {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <65 70>;
+        };
     };
 
     keymap {
