@@ -64,7 +64,7 @@
 &none        &none         &none         &none         &none         &none         &bootloader                                       &bootloader             &none  &none       &none       &none  &none  &none
 &none        &none         &none         &none         &none         &none         &none        &none  &none      &none  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none        &none         &none         &none         &macro_ver    &none                             &none      &none                                      &none  &none       &none       &none  &none  &none
-&bootloader  &none         &none         &none         &none                       &none        &none  &none      &none  &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &bootloader
+&bootloader  &none         &none         &rgb_ug RGB_EFR  &rgb_ug RGB_EFF          &none        &none  &none      &none  &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_DEC  &bl BL_INC  &none  &none  &bootloader
             >;
         };
     };
